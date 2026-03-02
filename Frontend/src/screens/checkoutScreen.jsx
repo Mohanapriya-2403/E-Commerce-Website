@@ -18,11 +18,11 @@ const checkoutScreen = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
           <div className="space-y-2">
             <label className="text-[10px] font-black uppercase tracking-widest text-[#8a8a82]">Full Name</label>
-            <input required type="text" className="w-full bg-[#f5f5f0] border-none rounded-xl p-4 text-[#333332] focus:ring-2 focus:ring-[#8a8a82]" placeholder="John Doe" />
+            <input required type="text" className="w-full bg-[#f5f5f0] border-none rounded-xl p-4 text-[#333332] focus:ring-2 focus:ring-[#8a8a82]" placeholder="Enter Your Name" />
           </div>
           <div className="space-y-2">
             <label className="text-[10px] font-black uppercase tracking-widest text-[#8a8a82]">Email Address</label>
-            <input required type="email" className="w-full bg-[#f5f5f0] border-none rounded-xl p-4 text-[#333332] focus:ring-2 focus:ring-[#8a8a82]" placeholder="john@example.com" />
+            <input required type="email" className="w-full bg-[#f5f5f0] border-none rounded-xl p-4 text-[#333332] focus:ring-2 focus:ring-[#8a8a82]" placeholder="Enter Your EMail Address" />
           </div>
           <div className="md:col-span-2 space-y-2">
             <label className="text-[10px] font-black uppercase tracking-widest text-[#8a8a82]">Shipping Address</label>
